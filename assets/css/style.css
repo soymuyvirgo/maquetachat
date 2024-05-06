@@ -102,4 +102,10 @@ height: 100vh;
     
 }
 
+.extremos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /*class que no me funcionaron*/
