@@ -98,14 +98,13 @@ height: 100vh;
 .flex {
     display: flex;
     gap: 1rem;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .extremos {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+justify-content: space-between;
+padding-right: 5%;
 }
 
 /*class que no me funcionaron*/
