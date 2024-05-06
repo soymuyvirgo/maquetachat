@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*etiquetas*/
+h1 {
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*clases*/
+
+.container {
+display: flex;
+width: 100vw;
+height: 100vh;
+
+
+}
+.contactos {
+    width: 20vw;
+    overflow-y: auto;
+}
+
+.thumbnail1 {
+    padding: 5%;
+    height: 3vh;
+}
+.thumbnail1 img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+overflow: hidden;
+}
+.thumbnail2 {
+    padding: 5%;
+    height: 4vh;
+}
+
+.thumbnail2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;   
+}
+
+.ps {
+font-size: 14px;  
+font-family: "Open Sans", sans-serif;
+}
+
+.pxs {
+    font-size: 10px;
+    color: #BEC1BB;
+    font-family: "Open Sans", sans-serif;
+}
+
+.boton {
+    background-color: #a491d2;
+    margin: 10%;
+}
+.pw {
+    font-size: 14px;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.principal {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 80vw;
+height: 100vh;
+}
+
+.border {
+    border: 1px solid #BEC1BB;
+}
+.imgprincipal {
+    width: 200px;
+}
+.texto {
+    text-align: center;
+    display: flex;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+/*class que no me funcionaron*/
